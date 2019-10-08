@@ -17,8 +17,8 @@ def scrape_station(station):
 
     # Scrape between July 1, 2014 and July 1, 2015
     # You can change the dates here if you prefer to scrape a different range
-    current_date = datetime(year=2014, month=7, day=1)
-    end_date = datetime(year=2015, month=7, day=1)
+    current_date = datetime(year=2018, month=6, day=1)
+    end_date = datetime(year=2019, month=6, day=1)
 
     # Make sure a directory exists for the station web pages
     os.mkdir(station)
